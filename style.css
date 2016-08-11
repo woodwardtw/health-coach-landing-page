@@ -105,7 +105,7 @@
 		padding-bottom: 20px;
 		color: #fff;
 		font-size: 12px;	
-		font-weight: 200;	
+		font-weight: 200;			
 	}
 
 	.footer a {
@@ -134,3 +134,23 @@
 	#details:target {
 	    display: block;
 	}	
+
+	#mc_embed_signup {
+		border-radius: 10px;
+	}
+
+	.emphasis  {
+		background-color: #aaa;
+		border-radius: 4px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 6px;
+		padding-right: 6px;
+		color: #fff;
+	}
+
+	.emphasis a:hover {
+		background-color: #333;
+		color: #fff;
+		text-decoration: none;
+	}
