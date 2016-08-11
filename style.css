@@ -1,0 +1,136 @@
+.navbar {
+		border-top: 15px solid #fcbd31;
+		background-color: #fff;
+		border-bottom: none;
+	}
+
+	.navbar-nav > li > a {
+		padding-top:45px !important; 
+		padding-bottom:5px !important;
+	}
+
+	.navbar img {
+		margin-top: 20px;
+	}
+
+	#intro {
+		background: url('imgs/healthcoaching2.jpg') center no-repeat;
+		background-size: cover;
+		min-height: 600px;
+	}
+
+
+	.jumbotron .words {
+		background-color: rgba(0,0,0, .3);
+		color: #fff;
+		padding: 15px;
+		border-radius: 7px;
+	}
+
+	.btn-gold {
+		background-color: #fcbd31;
+		border-color: #fcbd31;
+		font-size: 2.5em;		
+	}
+
+	.btn-gold:hover {
+		background-color: #000;
+		border-color: #2e2e2e;				
+	}
+
+	.title-block {
+	    background: #666666;
+	    margin: 25px 0px 15px 0px;
+	}
+
+	.title-block h2 {
+	    color: #fff;
+	    float: left;
+	    margin: 0px 0 0 10px !important;
+	    font-size: 15px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    line-height: 55px;
+	    padding: 0;
+	}
+
+	.title-block .icon {
+	    font-size: 30px;
+	    color: #fff;
+	    line-height: 55px;
+	    display: block;
+	    padding-right: 0px !Important;
+	}
+
+	.title-block .icon-container {
+	    float: left;
+	    background: #f2c025;
+	    width: 63px;
+	    height: 55px;
+	    text-align: center;
+	    padding-right: 0px !Important;
+	}
+
+	#skip a { 
+		position:absolute; 
+		left:-10000px; 
+		top:auto; 
+		width:1px; 
+		height:1px; 
+		overflow:hidden;
+		} 
+		 
+	#skip a:focus { 
+		position:static; 
+		width:auto; 
+		height:auto; 
+		} 
+
+
+
+	.arrow-right {
+	    width: 0;
+	    height: 0;
+	    border-top: 10px solid transparent;
+	    border-bottom: 10px solid transparent;
+	    border-left: 10px solid #f2c025;
+	    float: left;
+	    margin: 18px 0 0 -4px;
+	}
+
+
+	.footer {
+		background-color: #2e2e2e;
+		padding-top: 50px;
+		padding-bottom: 20px;
+		color: #fff;
+		font-size: 12px;	
+		font-weight: 200;	
+	}
+
+	.footer a {
+		color: #fcbd31;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.icon {
+		margin: 5px;
+		background-color: #f2c025;
+		border-radius: 3px;
+		width: 33px;
+		height: 33px;
+	}
+
+	.tablehead {		
+		background-color: #efefef;
+		}
+
+	#details:not(:target) {
+    display: none;
+	}
+	#details:target {
+	    display: block;
+	}	
